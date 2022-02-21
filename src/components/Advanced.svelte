@@ -68,6 +68,8 @@
 			{#if data.marketing}
 				<BoxCookies title="{getTranslate("marketing", data, lang)}" bind:enabled={values['marketing']} category={data.marketing} {data} {lang} {modifyButtons}>{getTranslate("marketing_description", data, lang)}</BoxCookies>
 			{/if}
+			<br />
+			<div class="floatRight"><small><a href="https://jahnet.eu/cookieToolbar" target="_blank">CookieToolbar</a></small></div><br />
 		</div>
 		<div slot="footer" class="cookieToolbarActions">
 			<Button color="{modifyButtons}" raised on:click={()=>(saveCookies(true))}>{getTranslate("enableAll", data, lang)}</Button>&nbsp;

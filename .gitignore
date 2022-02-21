@@ -23,6 +23,8 @@ node_modules
 _actual*.*
 _output
 /types
-/public/cookieToolbar
+/public/cookieToolbar/bundle.js
+/public/cookieToolbar/bundle.js.map
+/public/cookieToolbar/bundle.css
 configCookieToolbar.php
 cookieToolbarConfig.json
